@@ -5,7 +5,7 @@ This repository provides a new implementation of *node2vec*, which was presented
 > Aditya Grover and Jure Leskovec.<br>
 > Knowledge Discovery and Data Mining, 2016.<br>
 
-The most important change compared to the original implementation is a faster sampling strategy, which abuses that real world graphs usually have a scale-free degree distribution.
+The most important change compared to the original implementation is a faster sampling strategy, which abuses that real world graphs usually have a scale-free degree distribution. Additionally, this implementation is able to use multiple cores properly.
 
 ## Requirements
 
